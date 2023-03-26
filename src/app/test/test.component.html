@@ -1,0 +1,39 @@
+<h1 [style.color]="hasError ? 'red' : 'green'">hello Aslam</h1>
+<button (click)="onClick()">Off</button>
+<button (click)="Click()">On</button>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h1 [style.color,stile.background-color]="ColorFunction()">Hy Welcome To {{title}}</h1>
+<h1 style="text-align: center; ">Frond end frime work {{data.tech1}}</h1>
+<h1 style="text-align: center;">Backend {{data.tech2}}</h1>
+<h1 style="text-align: center;">Programming Language {{data.programingLanguage}}</h1>
+
+
+<div>
+  <input type="text" value="{{title}}">
+</div>
+
+
+
+
+<h1>{{greetings}}</h1>
+
+<button (click)="goodMorning()">goodMorning</button>
+<button (click)="goodAfternoon()">goodAfternoon</button>
+
+
+
+
+<div style="text-align: center;">
+
+  <h1 [style.color]="Color">count: {{count}}</h1>
+  <button (click)="count1()">+</button>
+  <button  (click)="count2()">-</button>
+
+</div>
