@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-test',
   templateUrl: './test.component.html',
@@ -7,7 +8,9 @@ import { Component } from '@angular/core';
 })
 export class TestComponent {
 
+// tow way data binding
 
+public value = 0
 hasError = true
 greetings =''
 public title = 'INDIA'
@@ -45,11 +48,6 @@ goodMorning(){
 goodAfternoon(){
   this.greetings ='hy friends good after none'
 }
-
-
-
-
-
 
 
 
